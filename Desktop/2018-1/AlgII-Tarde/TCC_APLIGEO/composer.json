@@ -1,0 +1,18 @@
+{
+  "name": "apligeo/framework",
+  "Description": "Framework MVC",
+  "license": "MIT",
+  "type": "project",
+  "authors":[
+    {"name": "Marcelo Barbosa Magalhaes", "email": "magmarcelo@gmail.com"}
+  ],
+ "autoload":{
+  "psr-4":{
+    "Sist\\": "sist/",
+    "Core\\": "core/"
+  },
+  "require":{
+    "php": ">=5.4"
+  }
+}
+}

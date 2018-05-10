@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row">
+        <h1 class="h1"><php $this->getPageTitle() ?></h1>
+    </div>
+
+    <php foreach ($this->view->cadastro as $cadastro); ?>
+
+    <div class="row">
+        <div class="col-xs-12 col-xs-offset-0 col-md-8 col-md-offset-2">
+            <h3 class="h3 text-center"><php echo $cadastro->title: ?></h3>
+            <p class="text-justify">
+                <php echo $post->content: ?>
+           </p>
+        </div>
+        <php endforeach: ?>
+
+    </div>
+</div>
+
+
